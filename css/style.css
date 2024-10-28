@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Open+Sans:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Lato&family=Open+Sans:wght@500&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gabarito:wght@600&family=Inter:wght@200&family=Lato&family=Open+Sans:wght@500&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/bottom.css");
+
+body  {
+  font-family: 'Gabarito', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: white;
+  height: 100%;
+  }
+
+h1,h2, h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+}
+
+h1  {
+  font-family: font-family: 'Gabarito', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#text h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(29, 240, 236);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#showcase {
+  border-radius: 10px;
+}
+
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image:
+      url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+#description {
+  text-align: center;
+}
+
